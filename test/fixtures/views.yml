@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 1
+  video_id: 1
+  data: 2018-02-21 17:54:03
+  completion: 1.5
+
+two:
+  user_id: 1
+  video_id: 1
+  data: 2018-02-21 17:54:03
+  completion: 1.5
