@@ -18,13 +18,13 @@ def createViews(num, min, max)
 end
 
 # 0% - 25% completions
-createViews(400, 0, 24.9)
+createViews(500, 0, 24.9)
 
 # 25% - 50% completions
-createViews(300, 25.0, 49.9)
+createViews(250, 25.0, 49.9)
 
 # 50% - 75% completions
-createViews(200, 50.0, 74.9)
+createViews(150, 50.0, 74.9)
 
 # 75% - 100% completions
 createViews(100, 75.0, 100.0)
