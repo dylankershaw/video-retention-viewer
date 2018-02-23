@@ -1,3 +1,6 @@
 <h1>View retention for video <%= @video.id %></h1>
 
 <%= area_chart @data, xtitle: "Video Completion", ytitle: "Users", label: "users", max: @views.count %>
+
+<div><%= link_to "previous video", video_path(@video.id - 1) %></div>
+<div><%= link_to "next video", video_path(@video.id + 1) %></div>
