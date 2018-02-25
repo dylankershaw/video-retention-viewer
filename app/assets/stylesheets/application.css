@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: gray;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.nav {
+  font-size: 1.5rem;
+  margin: 1rem;
+  float: left;
+}
